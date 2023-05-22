@@ -11,7 +11,7 @@ This repository contains a collection of template scripts that can be used in De
 
 The `Vagrant/` directory contains scripts related to managing Vagrant environments. These scripts provide a starting point for setting up and provisioning development environments using Vagrant.
 
-- `wordpress\`: Automated provisioning of Wordpress on Ubuntu box. As vagrant cannot create an additional file in the directory, I manually created the wordpress.conf, which is eqivalent to step 4 from https://ubuntu.com/tutorials/install-and-configure-wordpress#4-configure-apache-for-wordpress 
+- `wordpress/`: Automated provisioning of Wordpress on Ubuntu box. As vagrant cannot create an additional file in the directory, I manually created the wordpress.conf, which is eqivalent to step 4 from https://ubuntu.com/tutorials/install-and-configure-wordpress#4-configure-apache-for-wordpress 
 - `provision.sh`: A Bash script that is executed during the Vagrant provisioning process.
 
 ## Bash Scripts
